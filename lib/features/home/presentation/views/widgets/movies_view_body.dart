@@ -15,7 +15,7 @@ class MoviesViewBody extends StatelessWidget {
           CustomAppBar(),
           Text("Popular Movies", style: TextStyle(fontSize: 32)),
           CustomMovieListBuilder(),
-          SizedBox(height: 300),
+          SizedBox(height: 250),
         ],
       ),
     );
