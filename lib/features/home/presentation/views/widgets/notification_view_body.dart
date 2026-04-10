@@ -12,10 +12,7 @@ class NotificationViewBody extends StatelessWidget {
       builder: (context, notifications, child) {
         if (notifications.isEmpty) {
           return const Center(
-            child: Text(
-              'No notifications yet',
-              style: TextStyle(fontSize: 18),
-            ),
+            child: Text('No notifications yet', style: TextStyle(fontSize: 18)),
           );
         }
 
